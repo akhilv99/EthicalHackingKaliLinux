@@ -53,9 +53,24 @@ file1  file2  file3.py  folder
 ┌──(mrhacker㉿kali)-[~/Desktop]
 └─$ ls
 file1  file2  folder
+                                                                                                                                                                                                                            
+┌──(mrhacker㉿kali)-[~/Desktop/folder]
+└─$ cp file3.py file4.py
                                                                                                                    
-┌──(mrhacker㉿kali)-[~/Desktop]
-└─$ 
+┌──(mrhacker㉿kali)-[~/Desktop/folder]
+└─$ ls            
+file3.py  file4.py
+                                                                                                                   
+┌──(mrhacker㉿kali)-[~/Desktop/folder]
+└─$ cat file3.py        
+print("Hello World")
+                                                                                                                   
+┌──(mrhacker㉿kali)-[~/Desktop/folder]
+└─$ cat file4.py 
+print("Hello World")
+                                                                                                                   
+
+
 
                                                                                                                     
 
