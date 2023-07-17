@@ -31,8 +31,32 @@ Hello World
                                                                                                                     
 ┌──(mrhacker㉿kali)-[~/Desktop]
 └─$ nano file3.py
-                                                                                                                    
+
 ┌──(mrhacker㉿kali)-[~/Desktop]
 └─$ python3 file3.py
 Hello World
+
+┌──(mrhacker㉿kali)-[~/Desktop]
+└─$ ls
+file1  file2  file3.py
+                                                                                                                   
+┌──(mrhacker㉿kali)-[~/Desktop]
+└─$ mkdir folder      
+                                                                                                                   
+┌──(mrhacker㉿kali)-[~/Desktop]
+└─$ ls
+file1  file2  file3.py  folder
+                                                                                                                   
+┌──(mrhacker㉿kali)-[~/Desktop]
+└─$ mv file3.py folder
+                                                                                                                   
+┌──(mrhacker㉿kali)-[~/Desktop]
+└─$ ls
+file1  file2  folder
+                                                                                                                   
+┌──(mrhacker㉿kali)-[~/Desktop]
+└─$ 
+
+                                                                                                                    
+
                                                                                                                     
