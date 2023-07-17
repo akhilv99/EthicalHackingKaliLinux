@@ -68,6 +68,18 @@ print("Hello World")
 ┌──(mrhacker㉿kali)-[~/Desktop/folder]
 └─$ cat file4.py 
 print("Hello World")
+
+──(mrhacker㉿kali)-[~/Desktop/folder]
+└─$ cat file4.py 
+print("Hello World")
+                                                                                                                   
+┌──(mrhacker㉿kali)-[~/Desktop/folder]
+└─$ rm file4.py
+                                                                                                                   
+┌──(mrhacker㉿kali)-[~/Desktop/folder]
+└─$ ls
+file3.py
+
                                                                                                                    
 
 
