@@ -1,0 +1,38 @@
+─(mrhacker㉿kali)-[~]
+└─$ cd Desktop        
+                                                                                                                    
+┌──(mrhacker㉿kali)-[~/Desktop]
+└─$ touch file1
+                                                                                                                    
+┌──(mrhacker㉿kali)-[~/Desktop]
+└─$ ls        
+file1
+                                                                                                                    
+┌──(mrhacker㉿kali)-[~/Desktop]
+└─$ cat file1 
+                                                                                                                    
+┌──(mrhacker㉿kali)-[~/Desktop]
+└─$ echo Today is a really good day > file1
+                                                                                                                    
+┌──(mrhacker㉿kali)-[~/Desktop]
+└─$ cat file1
+Today is a really good day
+                                                                                                                    
+┌──(mrhacker㉿kali)-[~/Desktop]
+└─$ cat file1
+Today is a really good day
+                                                                                                                    
+┌──(mrhacker㉿kali)-[~/Desktop]
+└─$ nano file2
+                                                                                                                    
+┌──(mrhacker㉿kali)-[~/Desktop]
+└─$ cat file2
+Hello World 
+                                                                                                                    
+┌──(mrhacker㉿kali)-[~/Desktop]
+└─$ nano file3.py
+                                                                                                                    
+┌──(mrhacker㉿kali)-[~/Desktop]
+└─$ python3 file3.py
+Hello World
+                                                                                                                    
