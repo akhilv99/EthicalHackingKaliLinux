@@ -79,6 +79,23 @@ print("Hello World")
 ┌──(mrhacker㉿kali)-[~/Desktop/folder]
 └─$ ls
 file3.py
+┌──(mrhacker㉿kali)-[~/Desktop/folder]
+└─$ mkdir folder2     
+                                                                                                                   
+┌──(mrhacker㉿kali)-[~/Desktop/folder]
+└─$ ls
+file3.py  folder2
+                                                                                                                   
+┌──(mrhacker㉿kali)-[~/Desktop/folder]
+└─$ rm folder2 
+rm: cannot remove 'folder2': Is a directory
+                                                                                                                   
+┌──(mrhacker㉿kali)-[~/Desktop/folder]
+└─$ rm folder2 -r 
+                                                                                                                   
+┌──(mrhacker㉿kali)-[~/Desktop/folder]
+└─$ 
+
 
                                                                                                                    
 
