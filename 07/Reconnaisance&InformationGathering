@@ -14,4 +14,60 @@ PING etf.bg.ac.rs (147.91.14.197) 56(84) bytes of data.
 --- etf.bg.ac.rs ping statistics ---
 27 packets transmitted, 0 received, 100% packet loss, time 26638ms
 
+//using whois//
+
+──(mrhacker㉿kali)-[~/Desktop/folder]
+└─$ whois etf.bg.ac.rs
+
+% The data in the Whois database are provided by RNIDS
+% for information purposes only and to assist persons in obtaining
+% information about or related to a domain name registration record. 
+% Data in the database are created by registrants and we do not guarantee 
+% their accuracy. We reserve the right to remove access 
+% for entities abusing the data, without notice.
+% All timestamps are given in Serbian local time. 
+%
+Domain name: ac.rs
+Domain status: Active https://www.rnids.rs/en/domain-name-status-codes#Active
+Domain status: Registry lock https://www.rnids.rs/en/domain-name-status-codes#Registry_lock
+Domain status: serverUpdateProhibited https://www.rnids.rs/en/domain-name-status-codes#ServerUpdateProhibited
+Registration date: 10.03.2008 12:00:00
+Modification date: 01.04.2019 12:07:07
+Expiration date: 10.03.2108 12:00:00
+Confirmed: 10.03.2008 12:00:00
+Registrar: RNIDS
+
+
+Registrant: RNIDS
+Address: Žorža Klemansoa 18a, Beograd, Serbia
+Postal Code: 11000
+ID Number: 17680544
+Tax ID: 104852190
+
+Administrative contact: RCUB - Računski centar Univerziteta u Beogradu
+Address: Kumanovska bb, Beograd, Serbia
+Postal Code: 
+ID Number: 
+Tax ID: 
+
+Technical contact: RCUB - Računski centar Univerziteta u Beogradu
+Address: Kumanovska bb, Beograd, Serbia
+Postal Code: 
+ID Number: 
+Tax ID: 
+
+
+DNS: odisej.telekom.rs - 195.178.32.2
+DNS: ns.rcub.bg.ac.rs - 147.91.1.5
+DNS: gaea.rcub.bg.ac.rs - 147.91.1.7
+DNS: ns1.uns.ac.rs - 147.91.173.4
+DNS: ban.junis.ni.ac.rs - 160.99.1.1
+DNS: ns.unic.kg.ac.rs - 147.91.209.2
+DNS: ns.etf.bg.ac.rs - 147.91.8.6
+DNS: ns2.iif.hu - 193.225.12.59
+
+DNSSEC signed: no
+
+Whois Timestamp: 19.07.2023 01:41:19
+
 
