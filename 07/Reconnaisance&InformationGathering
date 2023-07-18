@@ -1,1 +1,17 @@
+//examples of using nslookup vs using ping//
+
+(mrhacker㉿kali)-[~/Desktop/folder]
+└─$ nslookup etf.bg.ac.rs
+Server:         75.75.75.75
+Address:        75.75.75.75#53
+
+Non-authoritative answer:
+Name:   etf.bg.ac.rs
+Address: 147.91.14.197
+
+ping etf.bg.ac.rs
+PING etf.bg.ac.rs (147.91.14.197) 56(84) bytes of data.
+--- etf.bg.ac.rs ping statistics ---
+27 packets transmitted, 0 received, 100% packet loss, time 26638ms
+
 
