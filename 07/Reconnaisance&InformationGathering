@@ -68,6 +68,11 @@ DNS: ns2.iif.hu - 193.225.12.59
 
 DNSSEC signed: no
 
-Whois Timestamp: 19.07.2023 01:41:19
+//using whatweb//
+
+whatweb 192.168.56.1-192.168.56.255 --aggression 3 -v --no-errors --log-verbose=results1
+
+
+
 
 
