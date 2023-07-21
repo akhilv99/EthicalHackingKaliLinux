@@ -72,6 +72,32 @@ DNSSEC signed: no
 
 whatweb 192.168.56.1-192.168.56.255 --aggression 3 -v --no-errors --log-verbose=results1
 
+┌──(mrhacker㉿kali)-[~/sherlock]
+└─$ sudo python3 -m pip install -r requirements.txt  
+Requirement already satisfied: certifi>=2019.6.16 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 1)) (2022.9.24)
+Requirement already satisfied: colorama>=0.4.1 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 2)) (0.4.6)
+Requirement already satisfied: PySocks>=1.7.0 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 3)) (1.7.1)
+Requirement already satisfied: requests>=2.22.0 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 4)) (2.28.1)
+Collecting requests-futures>=1.0.0 (from -r requirements.txt (line 5))
+  Downloading requests_futures-1.0.1-py2.py3-none-any.whl (7.6 kB)
+Collecting stem>=1.8.0 (from -r requirements.txt (line 6))
+  Downloading stem-1.8.2.tar.gz (2.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.9/2.9 MB 3.3 MB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Collecting torrequest>=0.1.0 (from -r requirements.txt (line 7))
+  Downloading torrequest-0.1.0.tar.gz (1.5 kB)
+  Preparing metadata (setup.py) ... done
+Requirement already satisfied: pandas>=1.0.0 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 8)) (1.5.3)
+Requirement already satisfied: openpyxl<=3.0.10 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 9)) (3.0.9)
+Collecting exrex>=0.11.0 (from -r requirements.txt (line 10))
+  Downloading exrex-0.11.0-py2.py3-none-any.whl (23 kB)
+Building wheels for collected packages: stem, torrequest
+  Building wheel for stem (setup.py) ... done
+  Created wheel for stem: filename=stem-1.8.2-py3-none-any.whl size=436204 sha256=d2e1b73c7f109570b893f3e9820eb4e39f4a38662c9ad3c39cf15723dd9a6229
+  Stored in directory: /root/.cache/pip/wheels/a8/52/ae/ba7ad30bbb36c7b4bb65e1d08793b3c87fd49dd0395bd4fe34
+
+
+
 
 
 
