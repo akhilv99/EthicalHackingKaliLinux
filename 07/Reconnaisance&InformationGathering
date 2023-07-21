@@ -95,7 +95,19 @@ Building wheels for collected packages: stem, torrequest
   Building wheel for stem (setup.py) ... done
   Created wheel for stem: filename=stem-1.8.2-py3-none-any.whl size=436204 sha256=d2e1b73c7f109570b893f3e9820eb4e39f4a38662c9ad3c39cf15723dd9a6229
   Stored in directory: /root/.cache/pip/wheels/a8/52/ae/ba7ad30bbb36c7b4bb65e1d08793b3c87fd49dd0395bd4fe34
-
+┌──(mrhacker㉿kali)-[~/sherlock]
+└─$ cd sherlock 
+                                                                                                                   
+┌──(mrhacker㉿kali)-[~/sherlock/sherlock]
+└─$ python3 sherlock.py                        
+usage: sherlock.py [-h] [--version] [--verbose] [--folderoutput FOLDEROUTPUT] [--output OUTPUT] [--tor]
+                   [--unique-tor] [--csv] [--xlsx] [--site SITE_NAME] [--proxy PROXY_URL] [--json JSON_FILE]
+                   [--timeout TIMEOUT] [--print-all] [--print-found] [--no-color] [--browse] [--local] [--nsfw]
+                   USERNAMES [USERNAMES ...]
+sherlock.py: error: the following arguments are required: USERNAMES
+                                                                                                                   
+┌──(mrhacker㉿kali)-[~/sherlock/sherlock]
+└─$ python3 sherlock.py
 
 
 
