@@ -5,3 +5,6 @@
 //port 22: SSH 
 //port 53: DNS 
 //port 25: SMTP
+//total ports 65535 
+//secure devices have most if not all ports blocked 
+//if open ports have a vulnerability, or outdated software, we can scan target for open ports and inject exploit
