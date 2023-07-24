@@ -43,6 +43,12 @@ PING 10.0.2.3 (10.0.2.3) 56(84) bytes of data.
 rtt min/avg/max/mdev = 0.235/0.283/0.419/0.065 ms
                                                                                                                    
 ┌──(mrhacker㉿kali)-[~]
-└─$ 
+└─$  netstat -nr     
+//use this to find out what router IP info we have
+
+┌──(mrhacker㉿kali)-[~]
+└─$ sudo netdiscover
+// use this to find out what network metasploitable is on, or type in ifconfig on metasploitable and use that 
+since we can't properly set up IP's on this network. 
 
 
