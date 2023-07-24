@@ -1,1 +1,4 @@
 //looking for open ports
+//port 80: HTTP port
+//port 443: HTTPS port
+//port 21: FTP port 
