@@ -8,3 +8,6 @@
 //total ports 65535 
 //secure devices have most if not all ports blocked 
 //if open ports have a vulnerability, or outdated software, we can scan target for open ports and inject exploit
+//TCP/UDP = different packets which can be sent 
+//Transmission Control Protocol: Most common, when you load webpage, TCP packets are sent to host to web server,
+//which sends TCP packets back to host. TCP packets are stitched together by browser to see webpage.
