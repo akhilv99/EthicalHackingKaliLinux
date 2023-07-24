@@ -2,3 +2,6 @@
 //port 80: HTTP port
 //port 443: HTTPS port
 //port 21: FTP port 
+//port 22: SSH 
+//port 53: DNS 
+//port 25: SMTP
