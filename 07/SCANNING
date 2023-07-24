@@ -15,3 +15,7 @@
 //SYN = Synchronized Sequence Number = informs server that client wants to start communication
 //SYN/ACK = server responds to clients request with Syn/Ack bitset
 //ACK = client acknowledges response of server and reliable connection is accepted 
+//TCP = reliability 
+//UDP = User Datagram Protocol 
+//datagram = packets 
+//no error correction
