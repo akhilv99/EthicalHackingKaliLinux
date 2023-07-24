@@ -19,3 +19,30 @@
 //UDP = User Datagram Protocol 
 //datagram = packets 
 //no error correction
+
+//METASPLOITABLE_INSTALLED 
+
+//──(mrhacker㉿kali)-[~]
+└─$ sudo arp -a    
+? (10.0.2.1) at 52:54:00:12:35:00 [ether] on eth1
+? (10.0.2.3) at 08:00:27:27:af:52 [ether] on eth1
+                                                                                                                   
+┌──(mrhacker㉿kali)-[~]
+└─$ ping 10.0.2.3    
+PING 10.0.2.3 (10.0.2.3) 56(84) bytes of data.
+64 bytes from 10.0.2.3: icmp_seq=1 ttl=255 time=0.272 ms
+64 bytes from 10.0.2.3: icmp_seq=2 ttl=255 time=0.235 ms
+64 bytes from 10.0.2.3: icmp_seq=3 ttl=255 time=0.340 ms
+64 bytes from 10.0.2.3: icmp_seq=4 ttl=255 time=0.237 ms
+64 bytes from 10.0.2.3: icmp_seq=5 ttl=255 time=0.236 ms
+64 bytes from 10.0.2.3: icmp_seq=6 ttl=255 time=0.419 ms
+64 bytes from 10.0.2.3: icmp_seq=7 ttl=255 time=0.244 ms
+^C
+--- 10.0.2.3 ping statistics ---
+7 packets transmitted, 7 received, 0% packet loss, time 6128ms
+rtt min/avg/max/mdev = 0.235/0.283/0.419/0.065 ms
+                                                                                                                   
+┌──(mrhacker㉿kali)-[~]
+└─$ 
+
+
